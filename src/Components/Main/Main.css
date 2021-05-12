@@ -1,0 +1,6 @@
+.main {
+  height: 100vh;
+  flex: 0.92;
+  overflow-y: scroll;
+  background-color: var(--nav-bg-color);
+}
