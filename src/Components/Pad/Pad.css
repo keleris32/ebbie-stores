@@ -1,0 +1,53 @@
+.pad {
+  width: 100%;
+  height: calc(100vh - 80px);
+  margin: 7em 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pad-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* background-color: red; */
+}
+
+.pad-imgOne,
+.pad-imgTwo {
+  background-color: var(--main-bg-color);
+  width: 411px;
+  height: auto;
+}
+
+.pad-imgOne {
+  align-self: flex-start;
+  justify-self: center;
+}
+
+.pad-imgTwo {
+  align-self: flex-end;
+  justify-self: center;
+}
+
+.pad-desc-con {
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pattern {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background-image: url(../../Media/Ellipse\ 1.png);
+  background-repeat: space;
+  background-size: 5px;
+  transform: rotate(45deg);
+  opacity: 0.2;
+  z-index: 0;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hero.css';
+// import './Hero.css';
 import Typical from 'react-typical';
 import { AiOutlineRight } from 'react-icons/ai';
 import img from '../../Media/engin-akyurt-ehdI_89nzMo-unsplash_1-removebg-preview.png';

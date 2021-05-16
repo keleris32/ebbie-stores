@@ -1,0 +1,39 @@
+.results {
+  width: 100%;
+  margin: 9em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.results-title {
+  margin-bottom: 1.5em;
+}
+
+.results-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  /* background-color: red; */
+}
+
+.results-img-con {
+  /* background-color: yellow; */
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.results-img {
+  width: 105px;
+  height: auto;
+}
+
+.results-img-desc {
+  text-align: center;
+  font-size: 0.9em;
+}

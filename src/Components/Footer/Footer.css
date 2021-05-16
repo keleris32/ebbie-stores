@@ -1,0 +1,118 @@
+.footer {
+  width: 100%;
+  background-color: var(--footer-bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  width: 85%;
+}
+
+.upper-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 3em 0;
+  /* background-color: red; */
+}
+
+.footer-logo {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3em;
+  color: #c677af;
+  margin-bottom: 0;
+}
+
+.footer-logo-motto {
+  color: var(--pseudo-color);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.9em;
+  font-style: italic;
+  float: right;
+}
+
+.footer-links {
+  display: flex;
+  color: #fff;
+}
+
+.link-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+}
+
+.link-title {
+  font-size: 1.15em;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.85em;
+  line-height: 200%;
+}
+
+.lower-footer {
+  padding: 3em 0;
+  border-top: 1px solid #fff;
+}
+
+.footer-contact {
+  color: #fff;
+}
+
+.contact-wrap {
+  line-height: 200%;
+  font-size: 0.85em;
+}
+
+.contact-icon {
+  margin-right: 1em;
+}
+
+.social-contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.social-icon-wrap {
+  background-color: var(--social-bg-color);
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5em;
+  cursor: pointer;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.wh-icon:hover,
+.wh-icon:focus {
+  background-color: #4fce5d;
+  color: #000;
+}
+
+.ig-icon:hover,
+.ig-icon:focus {
+  background-color: #e95950;
+  color: #000;
+}
+
+.fb-icon:hover,
+.fb-icon:focus {
+  background-color: #4267b2;
+  color: #000;
+}
+
+.lower-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--pseudo-color);
+}

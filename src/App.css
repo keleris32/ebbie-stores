@@ -1,5 +1,15 @@
 :root {
-  --nav-bg-color: #f6f7fb; /* #f8f8f8 */
+  --main-bg-color: #f6f7fb; /* #f8f8f8 */
+  --first-bg-color: #576eb4;
+  --imgTwo-bg-color: #9ddff0;
+  --imgOne-bg-color: #f2dfb4;
+  --footer-bg-color: #000;
+  --social-bg-color: #191919;
+  --pseudo-color: rgb(155, 155, 155);
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App {
@@ -7,8 +17,8 @@
   height: 100vh;
 }
 
-.wrapper {
+/* .wrapper {
   display: flex;
   width: 100%;
   height: 100%;
-}
+} */
