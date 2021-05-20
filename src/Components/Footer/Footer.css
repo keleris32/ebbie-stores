@@ -22,6 +22,7 @@
   font-size: 3em;
   color: #c677af;
   margin-bottom: 0;
+  cursor: pointer;
 }
 
 .footer-logo-motto {
@@ -52,6 +53,11 @@
   text-decoration: none;
   font-size: 0.85em;
   line-height: 200%;
+  transition: color 0.2s ease-in;
+}
+
+.link:hover {
+  color: #c677af;
 }
 
 .lower-footer {
