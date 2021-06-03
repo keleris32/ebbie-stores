@@ -16,6 +16,9 @@ const NewNav = () => {
           <li className="new-nav-link">CONTACT US</li>
         </div>
       </div>
+      <div className="hamburger-con">
+        <div className="hamburger" />
+      </div>
     </div>
   );
 };

@@ -7,7 +7,7 @@ nav {
   background-color: var(--nav-bg-color);
 }
 
-.hamburger-con {
+/* .hamburger-con {
   width: 100%;
   height: 80px;
   display: flex;
@@ -41,7 +41,7 @@ nav {
 }
 .hamburger::after {
   top: 9px;
-}
+} */
 
 .social-icons {
   width: 100%;

@@ -30,6 +30,7 @@
 .new-nav-logo {
   font-family: 'Quicksand', sans-serif;
   font-size: 2.5em;
+  transition: all 200ms ease-in-out;
 }
 
 .new-nav-link {
@@ -40,4 +41,49 @@
 
 .new-nav-link:hover {
   color: #c677af;
+}
+
+.hamburger-con {
+  height: 45px;
+  width: 45px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  /* background-color: #393d46; */
+}
+
+.hamburger-con:hover {
+  border: 1px solid #c677af;
+}
+
+.hamburger {
+  display: block;
+  position: relative;
+  transition: all 200ms ease-in-out;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  width: 1.25em;
+  height: 2px;
+  background: #000;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  position: absolute;
+  left: 0;
+}
+
+.hamburger::before {
+  bottom: 7px;
+}
+.hamburger::after {
+  top: 7px;
 }

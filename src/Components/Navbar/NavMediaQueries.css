@@ -1,0 +1,11 @@
+/* 850px */
+@media screen and (max-width: 850px) {
+  .new-nav-1st-wrap,
+  .new-nav-2nd-wrap {
+    display: none;
+  }
+
+  .hamburger-con {
+    display: flex;
+  }
+}
