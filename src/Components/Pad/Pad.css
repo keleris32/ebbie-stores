@@ -20,6 +20,7 @@
   background-color: var(--main-bg-color);
   width: 411px;
   height: auto;
+  border-radius: 5px;
 }
 
 .pad-imgOne {
@@ -41,10 +42,10 @@
   z-index: 1;
 }
 
-.pattern {
+.pad-pattern {
   position: absolute;
-  height: 500px;
-  width: 500px;
+  height: 30em;
+  width: 30em;
   background-image: url(../../Media/Ellipse\ 1.png);
   background-repeat: space;
   background-size: 5px;

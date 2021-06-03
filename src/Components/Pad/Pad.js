@@ -17,7 +17,7 @@ const Pad = (props) => {
         </div>
         <img src={props.imgTwo} alt={props.altTwo} className="pad-imgTwo" />
       </div>
-      <div className="pattern"></div>
+      <div className="pad-pattern"></div>
     </div>
   );
 };

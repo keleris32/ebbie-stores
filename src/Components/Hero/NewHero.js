@@ -4,6 +4,9 @@ import './NewHero.css';
 import img from '../../Media/engin-akyurt-ehdI_89nzMo-unsplash_1-removebg-preview.png';
 import Typical from 'react-typical';
 
+// _DSC2082-removebg-preview.png
+// engin-akyurt-ehdI_89nzMo-unsplash_1-removebg-preview.png
+
 const NewHero = () => {
   return (
     <div className="new-hero">

@@ -1,5 +1,6 @@
 import React from 'react';
 import './NewNav.css';
+import './NavMediaQueries.css';
 
 const NewNav = () => {
   return (
