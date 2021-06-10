@@ -6,13 +6,6 @@
   /* padding: 10em 0; */
 }
 
-.hero-wrapper {
-  height: 100%;
-  width: 92%;
-  display: flex;
-  background-color: #fff;
-}
-
 .description-con {
   flex: 1;
   /* background-color: blue; */
@@ -24,6 +17,7 @@
 
 .desc-wrapper {
   width: 70%;
+  /* background-color: white; */
 }
 
 .sub-title {
@@ -71,14 +65,14 @@
   border-radius: 50%;
   background-color: #c677af;
   opacity: 0.3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: 1;
 }
 
 .hero-img {
+  /* height: 577px;
+  width: 433px; */
   position: absolute;
-  top: 50%;
+  top: 100%;
   right: 50%;
-  transform: translate(50%, -50%);
+  transform: translate(50%, -100%);
 }

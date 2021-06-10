@@ -1,11 +1,14 @@
 import React from 'react';
 import { AiOutlineRight } from 'react-icons/ai';
 import './NewHero.css';
-import img from '../../Media/engin-akyurt-ehdI_89nzMo-unsplash_1-removebg-preview.png';
+import './HeroMediaQueries.css';
+import img from '../../Media/ShapellxNeoSweatLatexThreeBeltwithHookWaistTrainer_10-removebg-preview.png';
 import Typical from 'react-typical';
 
 // _DSC2082-removebg-preview.png
 // engin-akyurt-ehdI_89nzMo-unsplash_1-removebg-preview.png
+// ShapellxNeoSweatLatexThreeBeltwithHookWaistTrainer_10-removebg-preview.png
+// 2_34-removebg-preview.png
 
 const NewHero = () => {
   return (
@@ -14,12 +17,12 @@ const NewHero = () => {
         <div className="desc-wrapper">
           <p className="sub-title">New collection</p>
           <h1 className="title">
-            Perfect{' '}
-            <Typical
+            Perfect Waist{' '}
+            {/* <Typical
               loop={Infinity}
               wrapper="n"
               steps={['Waist!', 3500, 'Hips!', 3500, 'Legs!', 3500]}
-            />
+            /> */}
           </h1>
           <button className="btn">
             OPEN CATALOG

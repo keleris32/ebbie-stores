@@ -10,10 +10,10 @@ const NewMain = () => {
   return (
     <div className="new-main">
       <NewHero />
-      <Corsets {...objOne} />
+      {/* <Corsets {...objOne} />
       <Corsets {...objTwo} />
       <Pad {...padObj} />
-      <Results {...resultsObj} />
+      <Results {...resultsObj} /> */}
     </div>
   );
 };

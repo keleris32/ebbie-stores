@@ -24,10 +24,10 @@ const Corsets = (props) => {
         style={{ flexDirection: props.imgStart ? 'row' : 'row-reverse' }}
       >
         <div className="corsets-img-con">
-          <div
+          {/* <div
             className="corsets-pattern"
             style={props.imgStart ? { left: 0 } : { right: 0 }}
-          />
+          /> */}
           <div className="corsets-img-wrap">
             {/* <div className="corsets-ellipse" /> */}
 

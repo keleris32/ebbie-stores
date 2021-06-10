@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <NewNav />
       <NewMain />
-      <Footer />
+      {/* <Footer /> */}
 
       {/* <div className="wrapper">
         <Navbar />

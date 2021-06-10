@@ -8,4 +8,97 @@
   .hamburger-con {
     display: flex;
   }
+
+  .new-nav-wrapper {
+    padding: 0 1em;
+  }
+}
+
+/* 600px */
+@media screen and (max-width: 600px) {
+  .new-nav {
+    width: 90%;
+    height: 60px;
+  }
+
+  .new-nav-logo {
+    font-size: 2em;
+  }
+
+  .hamburger-con {
+    height: 35px;
+    width: 35px;
+  }
+
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    width: 1.15em;
+    height: 1px;
+  }
+
+  /* .hamburger::before,
+  .hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+  } */
+
+  /* .hamburger::before {
+    bottom: 7px;
+  }
+  .hamburger::after {
+    top: 7px;
+  } */
+}
+
+/* 450px */
+@media screen and (max-width: 450px) {
+  .new-nav-logo {
+    font-size: 1.75em;
+  }
+
+  .hamburger-con {
+    height: 32.5px;
+    width: 32.5px;
+  }
+
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    width: 1.05em;
+    /* height: 1px; */
+  }
+
+  .hamburger::before {
+    bottom: 6px;
+  }
+  .hamburger::after {
+    top: 6px;
+  }
+}
+
+/* 350px */
+@media screen and (max-width: 350px) {
+  .new-nav-logo {
+    font-size: 1.5em;
+  }
+
+  .hamburger-con {
+    height: 30px;
+    width: 30px;
+  }
+
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    width: 1em;
+  }
+
+  .hamburger::before {
+    bottom: 5px;
+  }
+  .hamburger::after {
+    top: 5px;
+  }
 }
