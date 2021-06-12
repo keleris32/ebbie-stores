@@ -22,11 +22,6 @@
     height: 19.5em;
     width: 19.5em;
   }
-
-  /* .hero-img {
-    height: auto;
-    max-width: 100%;
-  } */
 }
 
 /* 840px */
@@ -44,11 +39,6 @@
     height: 557px;
     width: 413px;
   }
-
-  /* .hero-img {
-    height: 34.813em;
-    width: 25.813em;
-  } */
 }
 
 /* 768px */
@@ -62,11 +52,6 @@
     height: 507px;
     width: 363px;
   }
-
-  /* .hero-img {
-    height: 31.688em;
-    width: 22.688em;
-  } */
 
   .sub-title {
     font-size: 0.875em;

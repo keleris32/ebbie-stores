@@ -5,6 +5,7 @@ import { FaFacebookF } from 'react-icons/fa';
 import { IoCall } from 'react-icons/io5';
 import { IoMdMail } from 'react-icons/io';
 import './Footer.css';
+import './FooterMediaQueries.css';
 
 const Footer = () => {
   return (

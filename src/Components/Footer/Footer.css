@@ -14,7 +14,6 @@
   display: flex;
   justify-content: space-around;
   padding: 3em 0;
-  /* background-color: red; */
 }
 
 .footer-logo {
@@ -121,4 +120,5 @@
   justify-content: center;
   align-items: center;
   color: var(--pseudo-color);
+  font-size: 14px;
 }
