@@ -11,9 +11,9 @@ const NewMain = () => {
     <div className="new-main">
       <NewHero />
       {/* <Corsets {...objOne} />
-      <Corsets {...objTwo} />
-      <Pad {...padObj} />
-      <Results {...resultsObj} /> */}
+      <Corsets {...objTwo} /> */}
+      {/* <Pad {...padObj} /> */}
+      <Results {...resultsObj} />
     </div>
   );
 };

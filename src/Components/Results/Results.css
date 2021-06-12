@@ -14,18 +14,22 @@
 .results-wrapper {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  position: relative;
-  /* background-color: red; */
+  justify-content: center;
+}
+
+.results-first-section,
+.results-second-section {
+  display: flex;
+  width: max-content;
 }
 
 .results-img-con {
-  /* background-color: yellow; */
   width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 2em;
 }
 
 .results-img {

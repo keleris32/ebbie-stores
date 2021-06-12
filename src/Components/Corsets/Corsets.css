@@ -24,10 +24,6 @@
   display: flex;
 }
 
-/* .corsets-img-con {
-  background-color: var(--nav-bg-color);
-} */
-
 .corsets-img-wrap {
   display: flex;
   position: relative;
@@ -42,20 +38,12 @@
 }
 
 .corsets-img-one {
-  /* justify-self: flex-start;
-  align-self: flex-start; */
-  /* transform: translate(25%, 25%); */
   top: 5em;
-  /* left: 0; */
   background-color: var(--imgOne-bg-color);
 }
 
 .corsets-img-two {
-  /* justify-self: flex-end;
-  align-self: flex-end; */
-  /* transform: translate(-25%, -25%); */
   z-index: 1;
-  /* left: 10em; */
   bottom: 5em;
   background-color: var(--imgTwo-bg-color);
 }
@@ -84,5 +72,4 @@
 .desc-subtitle {
   text-align: center;
   margin-bottom: 2em;
-  /* letter-spacing: 0.04em; */
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiOutlineRight } from 'react-icons/ai';
 import './Pad.css';
+import './PadMediaQueries.css';
 
 const Pad = (props) => {
   return (
