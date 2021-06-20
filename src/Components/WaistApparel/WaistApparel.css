@@ -1,0 +1,38 @@
+.waistApparel {
+  padding: 3em 1em 0 1em;
+}
+
+.waistApparel__wrapper {
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+  height: 600px;
+  width: 100%;
+  margin-top: 3em;
+  /* background-color: peachpuff; */
+}
+
+.waistApparel__product {
+  height: max-content;
+  width: 350px;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.waistApparel__product > img {
+  height: auto;
+  width: 350px;
+  background-color: var(--imgOne-bg-color);
+}
+
+.product {
+  font-size: 1em;
+}
+
+.price {
+  font-size: 0.9em;
+}
+
+.waistApparel__productDetails {
+  padding: 0 1em;
+}

@@ -1,18 +1,25 @@
 import './App.css';
-import { Navbar, Main, NewNav, NewMain, Footer } from './Components';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { NewNav, Footer } from './Components';
+import Home from './Pages/Home/Home';
+import Apparel from './Pages/Apparel/Apparel';
 
 function App() {
   return (
-    <div className="App">
-      <NewNav />
-      <NewMain />
-      <Footer />
-
-      {/* <div className="wrapper">
-        <Navbar />
-        <Main />
-      </div> */}
-    </div>
+    <Router>
+      <div className="App">
+        <NewNav />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/apparel">
+            <Apparel />
+          </Route>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

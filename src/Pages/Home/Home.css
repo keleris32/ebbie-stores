@@ -1,25 +1,25 @@
-.new-main {
+.home {
   width: 85%;
   margin: 0 auto;
 }
 
 /* 768px */
 @media screen and (max-width: 768px) {
-  .new-main {
+  .home {
     width: 90%;
   }
 }
 
 /* 650px */
 @media screen and (max-width: 650px) {
-  .new-main {
+  .home {
     width: 92.5%;
   }
 }
 
 /* 550px */
 /* @media screen and (max-width: 650px) {
-  .new-main {
-    width: 95%;
-  }
-} */
+    .new-main {
+      width: 95%;
+    }
+  } */

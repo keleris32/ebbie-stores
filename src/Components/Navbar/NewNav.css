@@ -27,20 +27,15 @@
   /* background-color: green; */
 }
 
+.logo-link {
+  color: #000;
+  text-decoration: none;
+}
+
 .new-nav-logo {
   font-family: 'Quicksand', sans-serif;
   font-size: 2.5em;
   transition: all 200ms ease-in-out;
-}
-
-.new-nav-link {
-  padding: 0 2.5em;
-  cursor: pointer;
-  transition: color 0.2s ease-in;
-}
-
-.new-nav-link:hover {
-  color: #c677af;
 }
 
 .hamburger-con {
