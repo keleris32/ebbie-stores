@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
-import './WaistApparel.css';
+import './TightsApparel.css';
 
-const WaistApparel = (props) => {
+function TightsApparel(props) {
   const [hover, setHover] = useState(false);
   const [hover2, setHover2] = useState(false);
 
   const toggleHover = () => setHover(!hover);
   const toggleHover2 = () => setHover2(!hover2);
-
   return (
-    <div className="waistApparel">
-      <h1 className="waistApparel__title">{props.title}</h1>
-      <p className="waistApparel__desc">{props.description}</p>
-      <div className="waistApparel__wrapper">
+    <div className="tightsApparel">
+      <h1 className="tightsApparel__title">{props.title}</h1>
+      <p className="tightsApparel__desc">{props.description}</p>
+      <div className="tightsApparel__wrapper">
         <div
           className={
             hover
@@ -28,7 +27,7 @@ const WaistApparel = (props) => {
             className={hover ? 'hovered__img' : ''}
           />
           {hover && <button className="link__btn">Go to Product</button>}
-          <div className="waistApparel__productDetails">
+          <div className="tightsApparel__productDetails">
             <h3 className="product">{props.productDescription}</h3>
             <p className="price">&#8358;{props.price}</p>
           </div>
@@ -48,7 +47,7 @@ const WaistApparel = (props) => {
             className={hover2 ? 'hovered__img' : ''}
           />
           {hover2 && <button className="link__btn">Go to Product</button>}
-          <div className="waistApparel__productDetails">
+          <div className="tightsApparel__productDetails">
             <h3 className="product">{props.productDescription2}</h3>
             <p className="price">&#8358;{props.price}</p>
           </div>
@@ -56,6 +55,6 @@ const WaistApparel = (props) => {
       </div>
     </div>
   );
-};
+}
 
-export default WaistApparel;
+export default TightsApparel;

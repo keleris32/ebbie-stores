@@ -31,11 +31,11 @@ const NewNav = () => {
         <div className="new-nav-1st-wrap">
           <NavLink
             exact
-            to="/gag"
+            to="/"
             {...css(activeLink.MenuLink)}
             activeStyle={{ color: '#c677af' }}
           >
-            <li className="new-nav-link">WAIST CORSETS</li>
+            <li className="new-nav-link">HOME</li>
           </NavLink>
           <NavLink
             exact

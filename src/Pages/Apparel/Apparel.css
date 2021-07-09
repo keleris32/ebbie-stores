@@ -31,19 +31,20 @@
 .apparel__header {
   margin: 0;
   padding: 1.5em;
-  border-bottom: 1px solid lightgray;
+  border: 1px solid lightgray;
 }
 
 .apparel__type {
   margin: 0;
   padding: 2em;
-  border-bottom: 1px solid lightgray;
+  border: 1px solid lightgray;
+  cursor: pointer;
 }
 
 .active__apparel {
   background-color: #fff;
-  color: #c677af;
-  border-left: 1px solid lightgray;
+  color: var(--link-color);
+  border-right: none;
 }
 
 /* Media Queries */

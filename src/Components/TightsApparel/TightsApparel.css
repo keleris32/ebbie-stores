@@ -1,8 +1,8 @@
-.waistApparel {
+.tightsApparel {
   padding: 3em 1em 0 1em;
 }
 
-.waistApparel__wrapper {
+.tightsApparel__wrapper {
   display: flex;
   justify-content: space-around;
   /* flex-wrap: wrap; */
@@ -12,20 +12,15 @@
   /* background-color: peachpuff; */
 }
 
-.waistApparel__product {
+.tightsApparel__product {
   height: max-content;
   width: 350px;
   padding: 10px;
   text-align: center;
-  position: relative;
   /* border: 1px solid red; */
 }
 
-.hovered__apparelProduct {
-  outline: 1px solid #000;
-}
-
-.waistApparel__product > img {
+.tightsApparel__product > img {
   height: auto;
   width: 350px;
   background-color: var(--imgOne-bg-color);
