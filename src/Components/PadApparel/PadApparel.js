@@ -10,15 +10,14 @@ function PadApparel(props) {
       <h1 className="padApparel__title">{props.title}</h1>
       <p className="padApparel__desc">{props.description}</p>
       <div className="padApparel__wrapper">
-        {padsApparelData.map((item) => {
+        {padsApparelData.map((item, index) => {
           return (
             <PadApparelCard
-              key={item.id}
+              key={index}
               img={item.img}
               alt={item.alt}
               productDescription={item.productDescription}
               price={item.price}
-              currency={item.currency}
             />
           );
         })}
