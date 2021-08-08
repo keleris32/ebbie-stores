@@ -27,7 +27,7 @@ const WaistApparel = (props) => {
             alt={props.alt}
             className={hover ? 'hovered__img' : ''}
           />
-          {hover && <button className="link__btn">Go to Product</button>}
+          {hover && <button className="waistLink__btn">Go to Product</button>}
           <div className="waistApparel__productDetails">
             <h3 className="product">{props.productDescription}</h3>
             <p className="price">&#8358;{props.price}</p>
@@ -47,7 +47,7 @@ const WaistApparel = (props) => {
             alt={props.alt}
             className={hover2 ? 'hovered__img' : ''}
           />
-          {hover2 && <button className="link__btn">Go to Product</button>}
+          {hover2 && <button className="waistLink__btn">Go to Product</button>}
           <div className="waistApparel__productDetails">
             <h3 className="product">{props.productDescription2}</h3>
             <p className="price">&#8358;{props.price}</p>

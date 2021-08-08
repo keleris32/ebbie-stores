@@ -44,7 +44,7 @@
 .active__apparel {
   background-color: #fff;
   color: var(--link-color);
-  border-right: none;
+  border: none;
 }
 
 /* Media Queries */

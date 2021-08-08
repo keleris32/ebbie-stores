@@ -1,5 +1,6 @@
 .padApparel {
   padding: 3em 1em 0 1em;
+  background-color: red;
 }
 
 .padApparel__wrapper {
@@ -19,11 +20,39 @@
   /* border: 1px solid red; */
 }
 
+.hovered__apparelProduct {
+  outline: 1px solid #000;
+}
+
 .padApparel__product > img {
   height: auto;
   width: 350px;
   background-color: var(--imgOne-bg-color);
   border-radius: 5px;
+}
+
+.hovered__img {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.link__btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.75em 2em;
+  font-weight: bold;
+  border: none;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: rgba(45, 40, 50, 0.9);
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.link__btn:hover {
+  background-color: var(--link-color);
 }
 
 .product {
