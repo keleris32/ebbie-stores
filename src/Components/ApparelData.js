@@ -1,10 +1,17 @@
 // waistApparelObj
 import trainerImg from '../Media/rm_bg/6o86Nu8O-removebg-preview.png';
 import trainerImg2 from '../Media/rm_bg/IMG_3290-removebg-preview.png';
+import hookAndZipImg from '../Media/IMG_7184-removebg-preview.png';
+import steelBoneImg from '../Media/IMG_7189-removebg-preview.png';
+import tummyCompImg from '../Media/IMG_7183-removebg-preview.png';
 
 // tightsApparelObj
 import tightsImg from '../Media/rm_bg/_DSC2045-removebg-preview.png';
 import tightsImg2 from '../Media/rm_bg/IMG_3294-removebg-preview.png';
+import buttLifterPantyImg from '../Media/IMG_6335.PNG';
+import highWaistImg from '../Media/indexWaistTrainer.png';
+import tummyControlImg from '../Media/IMG_7188-removebg-preview.png';
+import paddedButtImg from '../Media/rm_bg/IMG_3288-removebg-preview.png';
 
 // padApparelObj
 import padImg from '../Media/rm_bg/_DSC2068-removebg-preview.png';
@@ -72,66 +79,49 @@ export const padApparelObj = {
 // Waist Apparel Data
 export const waistApparelData = [
   {
-    title: 'Hook & Zip Waist Trainer',
+    title: 'Zipped up and Double-Snatched workout waist trainer',
     description:
       'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
     img: trainerImg,
-    alt: "Ebbie store's Hook & Zip Waist Trainer",
-    productDescription: 'Zipped up and Double-Snatched workout waist trainer',
+    alt: "Ebbie store's Waist Trainer",
+    productDescription: 'Zipped up and Double-Snatched Waist Trainer',
     price: '10,000.00',
   },
   {
-    title: 'Detachable Tummy Compressor',
+    title: 'Extreme Power Tummy Belt',
     description:
       'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
-    img: trainerImg,
-    alt: "Ebbie store's Detachable Tummy Compressor",
-    productDescription2: 'Extreme Power Belt workout waist trainer',
-    price: '6,000.00',
-  },
-  {
-    title: 'Waist Trainer',
-    description:
-      'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
-    img: trainerImg,
-    img2: trainerImg2,
-    alt: "Ebbie store's Waist Trainer",
-    productDescription: 'Zipped up and Double-Snatched workout waist trainer',
-    productDescription2: 'Extreme Power Belt workout waist trainer',
-    price: '8,000.00',
-  },
-  {
-    title: 'Extreme Power Belt',
-    description:
-      'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
-    img: trainerImg,
-    img2: trainerImg2,
+    img: trainerImg2,
     alt: "Ebbie store's Extreme Power Belt",
-    productDescription: 'Zipped up and Double-Snatched workout waist trainer',
-    productDescription2: 'Extreme Power Belt workout waist trainer',
+    productDescription: 'Extreme Power Tummy Belt',
     price: '8,000.00',
+  },
+  {
+    title: 'Hook & Zip Waist Trainer',
+    description:
+      'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
+    img: hookAndZipImg,
+    alt: "Ebbie store's Hook & Zip Waist Trainer",
+    productDescription: 'Hook & Zip Waist Trainer',
+    price: '10,000.00',
   },
   {
     title: '25 Steel Bone Corset',
     description:
       'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
-    img: trainerImg,
-    img2: trainerImg2,
+    img: steelBoneImg,
     alt: "Ebbie store's 25 Steel Bone Corset",
-    productDescription: 'Zipped up and Double-Snatched workout waist trainer',
-    productDescription2: 'Extreme Power Belt workout waist trainer',
-    price: '30,000.00',
+    productDescription: '25 Steel Bone Corset',
+    price: '15,000.00',
   },
   {
-    title: 'Tummy Trimmer',
+    title: 'Detachable Tummy Compressor',
     description:
       'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
-    img: trainerImg,
-    img2: trainerImg2,
-    alt: "Ebbie store's Tummy Trimmer",
-    productDescription: 'Zipped up and Double-Snatched workout waist trainer',
-    productDescription2: 'Extreme Power Belt workout waist trainer',
-    price: '5,000.00',
+    img: tummyCompImg,
+    alt: "Ebbie store's Detachable Tummy Compressor",
+    productDescription: 'Detachable Tummy Compressor',
+    price: '6,000.00',
   },
 ];
 
@@ -143,37 +133,47 @@ export const tightsApparelData = [
     title: 'Padded Butt underwear',
     description:
       'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
-    img: tightsImg,
+    img: tightsImg2,
     alt: "Ebbie store's Padded Butt underwear",
     productDescription: 'Zipped up and Double-Snatched workout waist trainer',
     price: '5,000.00',
   },
   {
-    title: 'Seamless High Waist Butt Lifter Panty',
+    title: 'Padded Butt underwear',
     description:
       'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
-    img: tightsImg,
-    alt: "Ebbie store's Seamless High Waist Butt Lifter Panty",
-    productDescription: 'Extreme Power Belt workout waist trainer',
-    price: '4,000.00',
-  },
-  {
-    title: 'Butt Lifter Tummy Control Underwear',
-    description:
-      'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
-    img: tightsImg,
-    alt: "Ebbie store's Butt Lifter Tummy Control Underwear",
-    productDescription: 'Zipped up and Double-Snatched workout waist trainer',
+    img: paddedButtImg,
+    img2: tightsImg2,
+    alt: "Ebbie store's Padded Butt underwear",
+    productDescription: 'Padded Butt underwear',
     price: '5,000.00',
   },
   {
     title: 'High Waist Detachable Butt Lifter',
     description:
       'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
-    img: tightsImg,
+    img: highWaistImg,
     alt: "Ebbie store's High Waist Detachable Butt Lifter",
-    productDescription: 'Zipped up and Double-Snatched workout waist trainer',
+    productDescription: 'High Waist Detachable Butt Lifter',
     price: '8,500.00',
+  },
+  {
+    title: 'Butt Lifter Tummy Control Underwear',
+    description:
+      'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
+    img: tummyControlImg,
+    alt: "Ebbie store's Butt Lifter Tummy Control Underwear",
+    productDescription: 'Butt Lifter Tummy Control Underwear',
+    price: '5,000.00',
+  },
+  {
+    title: 'Seamless High Waist Butt Lifter Panty',
+    description:
+      'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
+    img: buttLifterPantyImg,
+    alt: "Ebbie store's Seamless High Waist Butt Lifter Panty",
+    productDescription: 'Seamless High Waist Butt Lifter Panty',
+    price: '4,000.00',
   },
 ];
 
@@ -182,7 +182,7 @@ export const tightsApparelData = [
 // Pads Apparel Data
 export const padsApparelData = [
   {
-    title: 'Strong Arm Pads',
+    title: 'Double-Snatched workout Arm Pads',
     description:
       'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
     img: padImg,
@@ -190,33 +190,33 @@ export const padsApparelData = [
     productDescription: 'Double-Snatched workout Arm Pads',
     price: '7,500.00',
   },
-  {
-    title: 'Arm Shaper (pair)',
-    description:
-      'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
-    img: padImg2,
-    alt: "Ebbie store's quality arm shaper",
-    productDescription: 'Double-Padded Arm trainer',
-    price: '5,000.00',
-  },
-  {
-    title: 'Strong Arm Pads',
-    description:
-      'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
-    img: padImg,
-    alt: "Ebbie store's quality arm pad",
-    productDescription: 'Zipped up and Double-Snatched workout waist trainer',
-    price: '12,000.00',
-  },
-  {
-    title: 'Strong Arm Pads',
-    description:
-      'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
-    img: padImg,
-    alt: "Ebbie store's quality arm pad",
-    productDescription: 'Zipped up and Double-Snatched workout waist trainer',
-    price: '12,000.00',
-  },
+  // {
+  //   title: 'Arm Shaper (pair)',
+  //   description:
+  //     'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
+  //   img: padImg2,
+  //   alt: "Ebbie store's quality arm shaper",
+  //   productDescription: 'Double-Padded Arm trainer',
+  //   price: '5,000.00',
+  // },
+  // {
+  //   title: 'Strong Arm Pads',
+  //   description:
+  //     'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
+  //   img: padImg,
+  //   alt: "Ebbie store's quality arm pad",
+  //   productDescription: 'Zipped up and Double-Snatched workout waist trainer',
+  //   price: '12,000.00',
+  // },
+  // {
+  //   title: 'Strong Arm Pads',
+  //   description:
+  //     'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
+  //   img: padImg,
+  //   alt: "Ebbie store's quality arm pad",
+  //   productDescription: 'Zipped up and Double-Snatched workout waist trainer',
+  //   price: '12,000.00',
+  // },
 ];
 
 // ------------------------------>
