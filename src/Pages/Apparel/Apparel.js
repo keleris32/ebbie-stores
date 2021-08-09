@@ -66,7 +66,7 @@ function Apparel() {
                     : 'apparel__type'
                 }
               >
-                Gym Tights
+                Butt Lifters
               </h4>
               <h4
                 onClick={handlePadApparel}
@@ -76,7 +76,7 @@ function Apparel() {
                     : 'apparel__type'
                 }
               >
-                Arm Pads
+                Arm Shapers
               </h4>
             </div>
           </div>

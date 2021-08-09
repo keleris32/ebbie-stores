@@ -43,7 +43,7 @@ export const waistApparelObj = {
 // IMG_3287-removebg-preview.png
 
 export const tightsApparelObj = {
-  title: 'Sexy Tights',
+  title: 'Butt Lifters',
   description:
     'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
   img: tightsImg,
@@ -60,7 +60,7 @@ export const tightsApparelObj = {
 // IMG_3288-removebg-preview.png
 
 export const padApparelObj = {
-  title: 'Strong Arm Pads',
+  title: 'Arm Shapers',
   description:
     'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
   img: padImg,
@@ -130,12 +130,12 @@ export const waistApparelData = [
 // Tights Apparel Data
 export const tightsApparelData = [
   {
-    title: 'Padded Butt underwear',
+    title: 'Paded Tummy Control Butt Lifter',
     description:
       'Give your body a stunning silhouette with our waist trainer corsets and waist cinchers. From workout waist cinchers to those that can be worn for special occasions or to the office, our waist training corsets and cinchers are designed to fit you and your lifestyle.',
     img: tightsImg2,
-    alt: "Ebbie store's Padded Butt underwear",
-    productDescription: 'Zipped up and Double-Snatched workout waist trainer',
+    alt: "Ebbie store's Paded Tummy Control Butt Lifter",
+    productDescription: 'Paded Tummy Control Butt Lifter',
     price: '5,000.00',
   },
   {
