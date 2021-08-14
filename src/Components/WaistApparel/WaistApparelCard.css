@@ -1,12 +1,9 @@
 .waistApparel__product {
   position: relative;
   height: max-content;
-  /* width: 350px; */
   padding: 0.5em;
   margin: 0 auto 4em auto;
   text-align: center;
-  /* background-color: lightskyblue; */
-  /* border: 1px solid red; */
 }
 
 .hovered__apparelProduct {
