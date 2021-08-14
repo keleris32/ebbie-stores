@@ -1,6 +1,5 @@
 .padApparel {
   padding: 3em 1em 0 1em;
-  /* background-color: red; */
 }
 
 .padApparel__wrapper {
@@ -8,5 +7,53 @@
   grid-template-columns: 1fr 1fr;
   width: 100%;
   margin: 3em 0;
-  /* background-color: blue; */
+}
+
+/* Media Queries */
+
+/* 1080px */
+@media screen and (max-width: 1080px) {
+  .padApparel__title {
+    font-size: 1.8em;
+  }
+}
+
+/* 1024px */
+@media screen and (max-width: 1024px) {
+  .padApparel__title {
+    text-align: center;
+  }
+}
+
+/* 700px */
+@media screen and (max-width: 700px) {
+  .padApparel__wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .padApparel__title {
+    font-size: 1.5em;
+  }
+}
+
+/* 480px */
+@media screen and (max-width: 480px) {
+  .padApparel__title {
+    font-size: 1.25em;
+  }
+
+  .padApparel__desc {
+    font-size: 0.9em;
+  }
+
+  .padApparel {
+    padding: 2em 0.5em 0 0.5em;
+  }
+}
+
+/* 380px */
+@media screen and (max-width: 380px) {
+  .padApparel {
+    padding: 1em 1em 0 1em;
+  }
 }
