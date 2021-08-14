@@ -1,11 +1,11 @@
 .waistApparel__product {
   position: relative;
   height: max-content;
-  width: 350px;
+  /* width: 350px; */
   padding: 0.5em;
   margin: 0 auto 4em auto;
   text-align: center;
-  /* background-color: red; */
+  /* background-color: lightskyblue; */
   /* border: 1px solid red; */
 }
 
@@ -45,7 +45,7 @@
 }
 
 .product {
-  font-size: 1em;
+  font-size: 10em;
 }
 
 .price {
@@ -54,4 +54,87 @@
 
 .waistApparel__productDetails {
   padding: 0 1em;
+}
+
+/* Media Queries */
+
+/* 1150px */
+@media screen and (max-width: 1150px) {
+  .waistApparel__product > img {
+    width: 325px;
+  }
+}
+
+/* 1080px */
+@media screen and (max-width: 1080px) {
+  .waistApparel__product > img {
+    width: 300px;
+  }
+}
+
+/* 1024px */
+@media screen and (max-width: 1024px) {
+  .waistApparel__product > img {
+    width: 350px;
+  }
+}
+
+/* 930px */
+@media screen and (max-width: 930px) {
+  .waistApparel__product > img {
+    width: 325px;
+  }
+}
+
+/* 850px */
+@media screen and (max-width: 850px) {
+  .waistApparel__product > img {
+    width: 300px;
+  }
+}
+
+/* 800px */
+@media screen and (max-width: 800px) {
+  .waistApparel__product > img {
+    width: 275px;
+  }
+}
+
+/* 700px */
+@media screen and (max-width: 700px) {
+  .waistApparel__product > img {
+    width: 350px;
+  }
+}
+
+/* 480px */
+@media screen and (max-width: 480px) {
+  .waistApparel__product > img {
+    width: 300px;
+  }
+
+  .waistApparel__product {
+    margin: 0 auto 2em auto;
+  }
+}
+
+/* 380px */
+@media screen and (max-width: 380px) {
+  .waistApparel__product > img {
+    width: 250px;
+  }
+}
+
+/* 320px */
+@media screen and (max-width: 320px) {
+  .waistApparel__product > img {
+    width: 225px;
+  }
+}
+
+/* 300px */
+@media screen and (max-width: 300px) {
+  .waistApparel__product > img {
+    width: 200px;
+  }
 }
