@@ -4,6 +4,7 @@ import './NewHero.css';
 import './HeroMediaQueries.css';
 import img from '../../Media/ShapellxNeoSweatLatexThreeBeltwithHookWaistTrainer_10-removebg-preview.png';
 import Typical from 'react-typical';
+import { Link, useHistory } from 'react-router-dom';
 
 // _DSC2082-removebg-preview.png
 // engin-akyurt-ehdI_89nzMo-unsplash_1-removebg-preview.png
@@ -24,10 +25,12 @@ const NewHero = () => {
               steps={['Waist!', 3500, 'Hips!', 3500, 'Legs!', 3500]}
             /> */}
           </h1>
-          <button className="btn">
-            OPEN CATALOG
-            <AiOutlineRight className="arrow" />
-          </button>
+          <Link to="apparel" style={{ textDecoration: 'none' }}>
+            <button className="btn">
+              OPEN CATALOG
+              <AiOutlineRight className="arrow" />
+            </button>
+          </Link>
         </div>
       </div>
       <div className="img-con">
