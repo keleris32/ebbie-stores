@@ -7,14 +7,19 @@ const Corsets = (props) => {
     backgroundColor: props.imgStart
       ? 'var(--imgOne-bg-color)'
       : 'var(--imgTwo-bg-color)',
-    left: props.imgStart ? '0' : '4em',
+    // left: props.imgStart ? '0' : '4em',
   };
 
   const imgTwoSwap = {
     backgroundColor: props.imgStart
       ? 'var(--imgTwo-bg-color)'
       : 'var(--imgOne-bg-color)',
-    left: props.imgStart ? '10em' : '13.75em',
+    // left: props.imgStart ? '10em' : '13.75em',
+  };
+
+  const imgWrapPaddingSwap = {
+    paddingRight: props.imgStart ? '4em' : '0',
+    paddingLeft: props.imgStart ? '0' : '4em',
   };
 
   return (
@@ -24,13 +29,7 @@ const Corsets = (props) => {
         style={{ flexDirection: props.imgStart ? 'row' : 'row-reverse' }}
       >
         <div className="corsets-img-con">
-          {/* <div
-            className="corsets-pattern"
-            style={props.imgStart ? { left: 0 } : { right: 0 }}
-          /> */}
-          <div className="corsets-img-wrap">
-            {/* <div className="corsets-ellipse" /> */}
-
+          <div className="corsets-img-wrap" style={imgWrapPaddingSwap}>
             <img
               src={props.imgOne}
               alt={props.altOne}

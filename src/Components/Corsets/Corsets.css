@@ -22,11 +22,17 @@
 .corsets-img-con {
   flex: 1.25;
   display: flex;
+  /* background-color: blue; */
 }
 
 .corsets-img-wrap {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 4em;
   position: relative;
+  width: 100%;
+  /* background-color: white; */
 }
 
 .corsets-img-one,
@@ -38,14 +44,13 @@
 }
 
 .corsets-img-one {
-  top: 5em;
-  background-color: var(--imgOne-bg-color);
+  /* top: 5em; */
 }
 
 .corsets-img-two {
   z-index: 1;
-  bottom: 5em;
-  background-color: var(--imgTwo-bg-color);
+  bottom: 4em;
+  align-self: flex-end;
 }
 
 .corsets-desc-con {
