@@ -1,44 +1,38 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { PadApparel, TightsApparel, WaistApparel } from '../../Components';
 import {
   padApparelObj,
   tightsApparelObj,
   waistApparelObj,
 } from '../../Components/ApparelData';
+import {
+  activeTightsTab,
+  activeWaistTab,
+  activePadTab,
+} from '../../Context/action/apparelActions';
+import { GlobalContext } from '../../Context/Provider';
 import './Apparel.css';
 
 function Apparel() {
-  const [activeTab, setActiveTab] = useState({
-    waistApparelTab: true,
-    tightsApparelTab: false,
-    padApparelTab: false,
-  });
-  // const [isWaistApparel, setIsWaistApparel] = useState(true);
-  // const [isTightsApparel, setIsTightsApparel] = useState(false);
-  // const [isPadApparel, setIsPadApparel] = useState(false);
+  // apparel global state
+  const {
+    apparelDispatch,
+    apparelState: { waistApparelTab, tightsApparelTab, padApparelTab },
+  } = useContext(GlobalContext);
 
   const handleWaistApparel = () => {
-    setActiveTab({
-      waistApparelTab: true,
-      tightsApparelTab: false,
-      padApparelTab: false,
-    });
+    // dispatch the activeWaistTab action
+    activeWaistTab()(apparelDispatch);
   };
 
   const handleTightsApparel = () => {
-    setActiveTab({
-      waistApparelTab: false,
-      tightsApparelTab: true,
-      padApparelTab: false,
-    });
+    // dispatch the activeTightsTab action
+    activeTightsTab()(apparelDispatch);
   };
 
   const handlePadApparel = () => {
-    setActiveTab({
-      waistApparelTab: false,
-      tightsApparelTab: false,
-      padApparelTab: true,
-    });
+    // dispatch the activePadTab action
+    activePadTab()(apparelDispatch);
   };
 
   return (
@@ -51,7 +45,7 @@ function Apparel() {
               <h4
                 onClick={handleWaistApparel}
                 className={
-                  activeTab.waistApparelTab === true
+                  waistApparelTab
                     ? 'apparel__type active__apparel'
                     : 'apparel__type'
                 }
@@ -61,7 +55,7 @@ function Apparel() {
               <h4
                 onClick={handleTightsApparel}
                 className={
-                  activeTab.tightsApparelTab === true
+                  tightsApparelTab
                     ? 'apparel__type active__apparel'
                     : 'apparel__type'
                 }
@@ -71,7 +65,7 @@ function Apparel() {
               <h4
                 onClick={handlePadApparel}
                 className={
-                  activeTab.padApparelTab === true
+                  padApparelTab
                     ? 'apparel__type active__apparel'
                     : 'apparel__type'
                 }
@@ -82,15 +76,9 @@ function Apparel() {
           </div>
         </div>
         <div className="apparel__displayCon">
-          {activeTab.waistApparelTab === true && (
-            <WaistApparel {...waistApparelObj} />
-          )}
-          {activeTab.tightsApparelTab === true && (
-            <TightsApparel {...tightsApparelObj} />
-          )}
-          {activeTab.padApparelTab === true && (
-            <PadApparel {...padApparelObj} />
-          )}
+          {waistApparelTab && <WaistApparel {...waistApparelObj} />}
+          {tightsApparelTab && <TightsApparel {...tightsApparelObj} />}
+          {padApparelTab && <PadApparel {...padApparelObj} />}
         </div>
       </div>
     </div>
