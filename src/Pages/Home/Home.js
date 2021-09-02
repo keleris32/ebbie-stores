@@ -9,7 +9,7 @@ function Home() {
       <NewHero />
       <Corsets {...objOne} />
       <Corsets {...objTwo} />
-      <Pad {...padObj} />
+      {/* <Pad {...padObj} /> */}
       <Results {...resultsObj} />
     </div>
   );

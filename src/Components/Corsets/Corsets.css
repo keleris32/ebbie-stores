@@ -1,16 +1,8 @@
 .corsets {
   width: 100%;
-  height: calc(100vh - 80px);
+  /* height: calc(100vh - 80px); */
   margin: 7em 0;
-}
-
-.corsets-pattern {
-  height: 700px;
-  width: 400px;
-  background-image: url(../../Media/Pattern.png);
-  background-repeat: repeat;
-  position: absolute;
-  opacity: 0.4;
+  /* background-color: red; */
 }
 
 .corsets-wrapper {
@@ -35,11 +27,21 @@
   /* background-color: white; */
 }
 
+.corsets-imgWrap-truthy {
+  padding-right: 4em;
+  padding-left: 0;
+}
+
+.corsets-imgWrap-falsey {
+  padding-right: 0;
+  padding-left: 4em;
+}
+
 .corsets-img-one,
 .corsets-img-two {
   width: 461px;
   height: auto;
-  position: absolute;
+  position: relative;
   border-radius: 5px;
 }
 
@@ -77,4 +79,8 @@
 .desc-subtitle {
   text-align: center;
   margin-bottom: 2em;
+}
+
+.arrow {
+  margin-top: 0.1em;
 }

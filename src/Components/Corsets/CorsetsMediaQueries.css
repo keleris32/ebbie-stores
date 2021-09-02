@@ -1,0 +1,178 @@
+/* 1279px */
+@media screen and (max-width: 1279px) {
+  .corsets-img-one,
+  .corsets-img-two {
+    width: 421px;
+  }
+}
+
+/* 1025px */
+@media screen and (max-width: 1025px) {
+  .corsets-img-one,
+  .corsets-img-two {
+    width: 381px;
+  }
+}
+
+/* 990px */
+@media screen and (max-width: 990px) {
+  .corsets-img-one,
+  .corsets-img-two {
+    width: 341px;
+  }
+
+  .corsets-imgWrap-truthy {
+    padding-right: 3em;
+    padding-left: 0;
+  }
+
+  .corsets-imgWrap-falsey {
+    padding-right: 0;
+    padding-left: 3em;
+  }
+
+  .corsets-img-wrap {
+    padding-top: 3em;
+  }
+
+  .corsets-img-two {
+    bottom: 3em;
+  }
+
+  .desc-title {
+    font-size: 1.75em;
+  }
+}
+
+/* 850px */
+@media screen and (max-width: 850px) {
+  .corsets-imgWrap-truthy {
+    padding-right: 2em;
+    padding-left: 0;
+  }
+
+  .corsets-imgWrap-falsey {
+    padding-right: 0;
+    padding-left: 2em;
+  }
+
+  .corsets-img-wrap {
+    padding-top: 2em;
+  }
+
+  .corsets-img-two {
+    bottom: 2em;
+  }
+
+  .desc-title {
+    font-size: 1.5em;
+  }
+
+  .desc-subtitle {
+    font-size: 0.9em;
+  }
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+  .corsets-img-one,
+  .corsets-img-two {
+    width: 301px;
+  }
+}
+
+/* 650px */
+@media screen and (max-width: 650px) {
+  .corsets-img-one,
+  .corsets-img-two {
+    width: 281px;
+  }
+
+  .corsets-imgWrap-truthy {
+    padding-right: 1em;
+    padding-left: 0;
+  }
+
+  .corsets-imgWrap-falsey {
+    padding-right: 0;
+    padding-left: 1em;
+  }
+
+  .corsets-img-wrap {
+    padding-top: 1em;
+  }
+
+  .corsets-img-two {
+    bottom: 1em;
+  }
+
+  .desc-title {
+    font-size: 1.25em;
+  }
+
+  .desc-subtitle {
+    font-size: 0.8em;
+  }
+}
+
+/* 600px */
+@media screen and (max-width: 600px) {
+  .corsets-wrapper {
+    flex-direction: column-reverse !important;
+  }
+
+  .corsets-img-wrap {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .corsets-imgWrap-truthy,
+  .corsets-imgWrap-falsey {
+    padding: 0;
+  }
+
+  .corsets-img-two {
+    bottom: 0;
+    display: none;
+  }
+
+  .corsets-img-con {
+    align-items: center;
+    padding: 2em 0;
+  }
+
+  .corsets-desc-con {
+    padding: 4em 0;
+  }
+
+  .desc-title {
+    font-size: 1.5em;
+  }
+}
+
+/* 450px */
+@media screen and (max-width: 450px) {
+  .desc-title {
+    font-size: 1.25em;
+  }
+}
+
+/* 350px */
+@media screen and (max-width: 350px) {
+  .desc-title {
+    font-size: 1.15em;
+  }
+
+  .corsets-img-one,
+  .corsets-img-two {
+    width: 261px;
+  }
+}
+
+/* 300px */
+@media screen and (max-width: 300px) {
+  .desc-title {
+    font-size: 1.05em;
+  }
+}
