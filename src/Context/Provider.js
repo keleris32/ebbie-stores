@@ -9,8 +9,8 @@ export const GlobalContext = createContext({});
 const GlobalProvider = ({ children }) => {
   // Apparel tabs state
   const [apparelState, apparelDispatch] = useReducer(
-    apparelInitialState,
-    apparelReducer
+    apparelReducer,
+    apparelInitialState
   );
 
   return (
