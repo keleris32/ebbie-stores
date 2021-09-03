@@ -3,10 +3,11 @@ import { NavLink, Link } from 'react-router-dom';
 import { css } from 'glamor';
 import './NewNav.css';
 import './NavMediaQueries.css';
+import { GrCart } from 'react-icons/gr';
 
 const activeLink = {
   MenuLink: {
-    padding: '0 2.5em',
+    // padding: '0 2.5em',
     cursor: 'pointer',
     textDecoration: 'none',
     color: '#000',
@@ -18,15 +19,12 @@ const activeLink = {
   },
 };
 
-// .new-nav-link {
-//   padding: 0 2.5em;
-//   cursor: pointer;
-//   transition: color 0.2s ease-in;
-// }
-
 const NewNav = () => {
   return (
     <div className="new-nav">
+      <div className="hamburger-con">
+        <div className="hamburger" />
+      </div>
       <div className="new-nav-wrapper">
         <div className="new-nav-1st-wrap">
           <NavLink
@@ -67,10 +65,8 @@ const NewNav = () => {
             <li className="new-nav-link">CONTACT US</li>
           </NavLink>
         </div>
-        <div className="hamburger-con">
-          <div className="hamburger" />
-        </div>
       </div>
+      <GrCart className="cart" />
     </div>
   );
 };
