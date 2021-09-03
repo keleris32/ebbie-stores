@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { useHistory } from 'react-router-dom';
 import { FaWhatsapp } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
@@ -6,8 +7,41 @@ import { IoCall } from 'react-icons/io5';
 import { IoMdMail } from 'react-icons/io';
 import './Footer.css';
 import './FooterMediaQueries.css';
+import {
+  activePadTab,
+  activeTightsTab,
+  activeWaistTab,
+} from '../../Context/action/apparelActions';
+import { GlobalContext } from '../../Context/Provider';
 
 const Footer = () => {
+  // initialize history hook from from react-router-dom
+  const history = useHistory();
+
+  // apparel global state
+  const { apparelDispatch } = useContext(GlobalContext);
+
+  // make waist apparel tab active and move to apparel page
+  const moveToWaistTab = () => {
+    activeWaistTab()(apparelDispatch);
+
+    history.push('/apparel');
+  };
+
+  // make tights apparel tab active and move to apparel page
+  const moveToTightsTab = () => {
+    activeTightsTab()(apparelDispatch);
+
+    history.push('/apparel');
+  };
+
+  // make pad apparel tab active and move to apparel page
+  const moveToPadTab = () => {
+    activePadTab()(apparelDispatch);
+
+    history.push('/apparel');
+  };
+
   return (
     <div className="footer">
       <div className="footer-wrapper">
@@ -19,24 +53,20 @@ const Footer = () => {
           <div className="footer-links">
             <div className="link-wrap">
               <h2 className="link-title">Apparel</h2>
-              <a href="" className="link">
+              <span className="link" onClick={moveToWaistTab}>
                 Waist trainers
-              </a>
-              <a href="" className="link">
-                Arm guards
-              </a>
-              <a href="" className="link">
-                Yoga shorts
-              </a>
+              </span>
+              <span className="link" onClick={moveToTightsTab}>
+                Butt Lifters
+              </span>
+              <span className="link" onClick={moveToPadTab}>
+                Arm Shapers
+              </span>
             </div>
             <div className="link-wrap">
               <h2 className="link-title">About us</h2>
-              <a href="" className="link">
-                Our story
-              </a>
-              <a href="" className="link">
-                Our guide
-              </a>
+              <span className="link">Our story</span>
+              <span className="link">Our guide</span>
             </div>
           </div>
           <div className="footer-contact">
