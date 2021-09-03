@@ -2,6 +2,7 @@ import React from 'react';
 import './Corsets.css';
 import './CorsetsMediaQueries.css';
 import { AiOutlineRight } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const Corsets = (props) => {
   const imgOneSwap = {
@@ -48,10 +49,12 @@ const Corsets = (props) => {
           <div className="corsets-desc-wrapper">
             <h1 className="desc-title">{props.title}</h1>
             <p className="desc-subtitle">{props.subtitle}</p>
-            <button className="btn">
-              EXPLORE
-              <AiOutlineRight className="arrow" />
-            </button>
+            <Link to="apparel" style={{ textDecoration: 'none' }}>
+              <button className="btn">
+                EXPLORE
+                <AiOutlineRight className="arrow" />
+              </button>
+            </Link>
           </div>
         </div>
       </div>
