@@ -4,12 +4,7 @@ import './NewHero.css';
 import './HeroMediaQueries.css';
 import img from '../../Media/ShapellxNeoSweatLatexThreeBeltwithHookWaistTrainer_10-removebg-preview.png';
 import Typical from 'react-typical';
-import { Link, useHistory } from 'react-router-dom';
-
-// _DSC2082-removebg-preview.png
-// engin-akyurt-ehdI_89nzMo-unsplash_1-removebg-preview.png
-// ShapellxNeoSweatLatexThreeBeltwithHookWaistTrainer_10-removebg-preview.png
-// 2_34-removebg-preview.png
+import { Link } from 'react-router-dom';
 
 const NewHero = () => {
   return (
