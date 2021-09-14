@@ -27,42 +27,6 @@ const WaistApparel = (props) => {
   }, []);
 
   return (
-    // <>
-    //   {loading ? (
-    //     <div className="waistApparel">
-    //       <h1 className="waistApparel__title">
-    //         <Skeleton />
-    //       </h1>
-    //       <p className="waistApparel__desc">
-    //         <Skeleton />
-    //       </p>
-    //       <div className="waistApparel__wrapper">
-    //         {console.log(apparelData)}
-    //         <Skeleton count={3} />
-    //       </div>
-    //     </div>
-    //   ) : (
-    //     <div className="waistApparel">
-    //       <h1 className="waistApparel__title">{props.title}</h1>
-    //       <p className="waistApparel__desc">{props.description}</p>
-    //       <div className="waistApparel__wrapper">
-    //         {apparelData?.map((item) => {
-    //           console.log('mapped', item);
-    //           return (
-    //             <WaistApparelCard
-    //               key={item._id}
-    //               setImgLoaded={setImgLoaded}
-    //               img={item.img}
-    //               alt={item.alt}
-    //               productDescription={item.description}
-    //               price={item.price}
-    //             />
-    //           );
-    //         })}
-    //       </div>
-    //     </div>
-    //   )}
-    // </>
     <div className="waistApparel">
       <div style={{ display: imgLoaded ? 'block' : 'none' }}>
         <h1 className="waistApparel__title">{props.title}</h1>
