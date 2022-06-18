@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { css } from 'glamor';
+import { Nav, NavBtn, NavLinkCon } from './NewNav.elements';
 import './NewNav.css';
 import './NavMediaQueries.css';
 import { GrCart } from 'react-icons/gr';
 
 const activeLink = {
   MenuLink: {
-    // padding: '0 2.5em',
     cursor: 'pointer',
     textDecoration: 'none',
     color: '#000',
@@ -19,12 +19,33 @@ const activeLink = {
   },
 };
 
-const NewNav = () => {
+const NewNav = ({ isSidebarOpen, toggleSidebar }) => {
+  const navbarTransitionStyles = {
+    position: isSidebarOpen ? 'absolute' : 'static',
+    zIndex: isSidebarOpen ? '2000' : 'auto',
+    left: isSidebarOpen ? '50%' : '0',
+    transform: isSidebarOpen ? 'translateX(-50%)' : 'translateX(0)',
+  };
+
+  const hideNavbarElements = {
+    display: isSidebarOpen ? 'none' : 'block',
+  };
+
+  const hamburgerConTransitionStyles = {
+    transform: isSidebarOpen ? 'translateX(-50%)' : 'transform(0)',
+    left: isSidebarOpen ? '50%' : '0',
+    position: isSidebarOpen ? 'absolute' : 'static',
+  };
+
   return (
-    <div className="new-nav">
-      <div className="hamburger-con">
-        <div className="hamburger" />
-      </div>
+    <Nav className="new-nav" isSidebarOpen={isSidebarOpen}>
+      <NavBtn
+        className="hamburger-con"
+        onClick={toggleSidebar}
+        isSidebarOpen={isSidebarOpen}
+      >
+        <NavLinkCon className="hamburger" isSidebarOpen={isSidebarOpen} />
+      </NavBtn>
       <div className="new-nav-wrapper">
         <div className="new-nav-1st-wrap">
           <NavLink
@@ -44,7 +65,7 @@ const NewNav = () => {
             <li className="new-nav-link">APPAREL</li>
           </NavLink>
         </div>
-        <Link to="/" className="logo-link">
+        <Link to="/" className="logo-link" style={hideNavbarElements}>
           <h1 className="new-nav-logo">ebbie.</h1>
         </Link>
         <div className="new-nav-2nd-wrap">
@@ -66,8 +87,10 @@ const NewNav = () => {
           </NavLink>
         </div>
       </div>
-      <GrCart className="cart" />
-    </div>
+      <div style={hideNavbarElements}>
+        <GrCart className="cart" />
+      </div>
+    </Nav>
   );
 };
 

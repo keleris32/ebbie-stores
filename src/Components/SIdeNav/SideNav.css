@@ -1,0 +1,26 @@
+.side-nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-bg-color);
+  overflow-y: 'hidden';
+  transition: transform 300ms cubic-bezier(0.5, 0, 0.5, 1);
+  z-index: 1000;
+}
+
+.side-nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 35%;
+  text-align: center;
+  transition: transform 500ms ease-in-out 100ms, opacity 750ms linear 300ms;
+}
+
+.side-nav-link {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}

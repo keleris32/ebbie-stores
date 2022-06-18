@@ -50,12 +50,11 @@
     width: 30px;
   }
 
-  .hamburger,
+  /* .hamburger,
   .hamburger::before,
   .hamburger::after {
     width: 1em;
-    height: 1px;
-  }
+  } */
 
   .hamburger::before {
     bottom: 6px;
@@ -85,12 +84,6 @@
     width: 27.5px;
   }
 
-  .hamburger,
-  .hamburger::before,
-  .hamburger::after {
-    width: 1em;
-  }
-
   .hamburger::before {
     bottom: 6px;
   }
@@ -113,16 +106,10 @@
     font-size: 1.15em;
   }
 
-  .hamburger-con {
+  /* .hamburger-con {
     height: 25px;
     width: 25px;
-  }
-
-  .hamburger,
-  .hamburger::before,
-  .hamburger::after {
-    width: 1em;
-  }
+  } */
 
   .hamburger::before {
     bottom: 5px;
