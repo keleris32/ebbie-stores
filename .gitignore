@@ -9,10 +9,7 @@
 /coverage
 
 # production
-/build
-
-# backend folder
-/Backend
+/builds
 
 # misc
 .DS_Store
